@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Registration - Tunde</title>
+</head>
+<body>    
+    <div id="container">
+        <header>
+            <nav>
+                <img src="./img/logo.png" class="logo">
+                <ul>
+                    <li><a href="./index.html">About Me</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./registration.html">Registration</a></li>
+                    <li><a href="./login.html"><span class="login">LOGIN !</span></a></li>
+                </ul>
+        </nav>
+        </header>
+
+        <div class="container_page">
+            <label for="fname">First Name: </label>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+            <label for="lname">Last Name: </label>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+            <label for="phone">Phone Number: </label>
+            <input type="tel" id="phone" name="phone">
+            <br><br>
+            <label for="gender">Gender: </label>
+            <select id="gender" name="gender">
+            <option value="male">male</option>
+            <option value="female">Female</option>
+            </select>
+            <br><br>
+            <label for="country">Country: </label>
+            <input type="text" id="country" name="country">
+            <br><br>
+            <label for="state">State/Province: </label>
+            <input type="text" id="state" name="state">
+            <br><br>
+            <label for="reg-email">Email: </label>
+            <input type="email" id="reg-email" name="reg-email">
+            <br><br>
+            <label for="reg-password">Password: </label>
+            <input type="password" id="reg-password" name="reg-password">
+            
+            <label for="cof-password" id="reg-password" >Confirm Password: </label>
+            <input type="password" name="reg-password">
+            <br><br>
+            <input type="button" class="btn" value="Submit" name="submit">
+        </div>
+
+        <footer>Powered by <a href=""><span>Tunde Ojebisi</span></a> ©2022</footer>
+    </div>
+</body>
+</html>
